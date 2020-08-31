@@ -134,3 +134,118 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 31.25em;
+    }
+
+    nav a {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+        padding: 10%;
+        height: 1%;
+   }
+
+    nav span {
+        height: 25px;
+        display: flex;
+        margin: 20px 
+
+    }
+
+    div {
+        max-width: 500px;
+    }
+
+    .bio {
+        font-size: 80%;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        margin: 0 auto;
+               
+    }
+
+    .title-container div {	
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg');		
+        background-position: center;	
+        color: white;	
+        width:500px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:60vh;
+        margin:5% 0;
+    }	
+
+    .artists-container{
+        display:flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        width:100%;
+        margin:0 auto;
+    }
+    
+    .artist{
+        width:70%;
+        margin: 0 auto;
+    }
+    .artist img{
+        height: 50%;
+        width: 60%;
+        padding: 2%;
+        border-radius: 7%;
+        
+    }
+
+    section.artists-container {
+        
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+
+
+    .image-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }   
+    
+    div.likedimages {
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+    
+
+    .likes {
+        display: flex;
+        flex-flow: wrap;
+        
+    }
+
+    .sidebarText {
+        max-width: 23em;
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 3%;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;      
+    }
+
+    h2 {
+        text-align: center;
+    }
+    
+}
